@@ -1,0 +1,945 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hind+Madurai:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap'); */
+
+/* FONTS LA EN TEPAGA STYLE UCHUN IMPORT */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+   background-color: #fff;
+   min-width: 320px;
+}
+
+a{
+   display: inline-block;
+   text-decoration: none;
+}
+
+.container {
+    width: 1150px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: rgba(242,206,218,0.3);
+}
+
+.header .nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .nav .menu {
+    display: flex;
+}
+
+.header .nav .menu .list .link {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #150101;
+    opacity: 0.6;
+    margin: 0 20px;
+}
+
+.header .nav .menu .list .link:hover {
+    color: #d23166;
+    opacity: 1;
+    cursor: pointer;
+    text-shadow: 0px 0px 0.5px #d23166 ;
+}
+
+.header .nav .buy-btn {
+    font-family: 'Hind Madurai';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #fafafa;
+    background: #D23166;
+    border-radius: 5px;
+    padding: 11px 47px;
+    transition: 500ms;
+    border: 3px solid transparent;
+
+   /*  width: 165px;
+    height: 49px; */
+
+    /* line-height: 49px;
+    text-align: center; */
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    /* LINE HEIGHT bn HEIGHT br xil bosa content Y oq boyicha center ga kochadi */
+}
+
+.header .nav .buy-btn:hover {
+    background-color: transparent;
+    color: #d23166;
+    border: 3px solid #d23166 ;
+}
+
+/* /////////////// */
+
+.hero {
+    background-color: rgba(242,206,218,0.3);
+}
+
+.hero .wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.hero .wrapper .left {
+    width: 59%;
+}
+
+.hero .wrapper .left .suptitle {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #0f0101;
+}
+
+.hero .wrapper .left .title {
+    font-family: 'Fredoka One';
+    font-weight: 400;
+    font-size: 57.33px;
+    line-height: 120.5%;
+    color: #0f0101;
+    opacity: 0.9;
+}
+
+.hero .wrapper .left .title span {
+    color: #d23166;
+}
+
+.hero .wrapper .left .subtitle {
+    width: 80%;
+    padding: 35px 0 50px;
+    font-family: 'Hind Madurai';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #0f0101;
+    opacity: 0.6;
+}
+
+.hero .wrapper .left .buy-btn {
+    font-family: 'Hind Madurai';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #fafafa;
+    background: #D23166;
+    border-radius: 5px;
+    padding: 11px 47px;
+    transition: 500ms;
+    border: 3px solid transparent; 
+}
+
+.hero .wrapper .left .buy-btn:hover {
+    background-color: transparent;
+    color: #d23166;
+    border: 3px solid #d23166 ;     
+}
+
+.hero .wrapper .right {
+    width: 41%;
+}
+
+.hero .wrapper .right .img {
+    width: 100%;
+    transform: scale(1.3) translateX(30px);
+    
+}
+
+/* /////////////////// */
+
+.delivery .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 100px 0;
+}
+
+.delivery .wrapper .card {
+    width: 250px;
+    background: #ffffff;
+    border: 1px solid rgba(0,0,0,0.03);
+    border-radius: 7px;
+    text-align: center;
+    padding: 35px 26px 28px;
+    transition: 300ms;
+}
+
+.delivery .wrapper .card:hover {
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.03); 
+    border-color: transparent;
+    cursor: pointer;
+}
+
+
+.delivery .wrapper .card .title {
+    font-family: 'Hind Madurai';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    padding: 24px 0 9px;
+}
+
+.delivery .wrapper .card .subtitle {
+    font-family: 'Hind Madurai';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.6;
+}
+
+/* /////////// */
+
+.brown {
+    background-color: rgba(242,206,218,0.3);
+}
+
+.brown .wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brown .wrapper .left {
+     width: 40%;
+}
+
+.brown .wrapper .left .title {
+    font-family: 'Hind Madurai';
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+    width: 60%;
+}
+
+.brown .wrapper .left .suptitle {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150101;
+    opacity: 0.6;
+    margin: 26px 0 28px;
+}
+
+
+.brown .wrapper .left .buy-btn {
+    font-family: 'Hind Madurai';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #fafafa;
+    background: #D23166;
+    border-radius: 5px;
+    padding: 11px 47px;
+    transition: 500ms;
+    border: 3px solid transparent;
+}
+
+.brown .wrapper .left .buy-btn:hover {
+    background-color: transparent;
+    color: #d23166;
+    border: 3px solid #d23166 ;
+} 
+
+.brown .wrapper .right .img {
+    transform: translateY(40px) scale(0.875);
+}
+
+/* /////////////// */
+
+.product .wrapper .title{
+    font-family: 'Hind Madurai';
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    color: #150101;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.product .wrapper .menu {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.product .wrapper .menu .list .link::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 3px;
+    margin-top: 4px ;
+    transition: 1000ms;
+}
+
+.product .wrapper .menu .list .link:hover {
+    opacity: 1;
+}
+
+.product .wrapper .menu .list .link:hover::after {
+    width: 100%;
+    background-color: #d23166;
+    margin: 0 auto;
+}
+
+.product .wrapper .list .link {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 0.6;
+}
+
+
+/* ///////////// */
+
+.product .wrapper1 {
+    width: 100%;
+    display: flex;
+    margin: 80px 0 0 0;
+    justify-content: space-between;
+}
+
+.product .wrapper1 .right .title {
+    font-family: 'Hind Madurai';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+    padding: 0 0 15px 0;
+}
+
+.product .wrapper1 .right .suptitle {
+    font-family: 'Hind Madurai';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+    width: 80%;
+}
+
+.product .wrapper1 .right .buy-btn{
+    font-family: 'Hind Madurai';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #fafafa;
+    background: #D23166;
+    border-radius: 5px;
+    padding: 11px 47px;
+    transition: 500ms;
+    border: 3px solid transparent;
+}
+
+.product .wrapper1 .right .buy-btn:hover {
+    background-color: transparent;
+    color: #d23166;
+    border: 3px solid #d23166 ;
+}
+
+.product .wrapper1 .right .new {
+    font-family: 'Hind Madurai';
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+    margin: 0 10px 0 0;
+}
+
+.product .wrapper1 .right .cost {
+    display: flex;
+    padding: 20px 0;
+}
+
+
+.product .wrapper1 .right .old {
+    font-family: 'Hind Madurai';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: #000000;
+    opacity: 0.7;
+    transform: translateY(4.9px);
+}
+
+.product .wrapper1 .right {
+    transform: translateX(35px);
+}
+
+.product .wrapper1 .left {
+    transform: translateX(-40px);
+}
+
+/* /////////// */
+
+.product .wrapper2 {
+    width: 100%;
+    display: flex;  
+    margin: 80px 0 0 0;
+}
+
+.product .wrapper2 .left .title {
+    font-family: 'Hind Madurai';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: right;
+    color: #000000;
+    padding: 0 0 20px 0;
+}
+
+.product .wrapper2 .left .suptitle {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    opacity: 0.7;
+}
+
+.product .wrapper2 .left .new {
+    font-family: 'Hind Madurai';
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+    margin: 0 10px 0 0;
+}
+
+.product .wrapper2 .left .old {
+    font-family: 'Hind Madurai';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: #000000;
+    opacity: 0.7;
+    transform: translateY(4.9px);
+}
+
+.product .wrapper2 .left .cost {
+    display: flex;
+    padding: 20px 0;
+    justify-content: flex-end;
+}
+
+.product .wrapper2 .left {
+    width: 40%;
+    margin: 90px 40px 0 0;
+}
+
+.product .wrapper2 .left .buy-btn{
+    font-family: 'Hind Madurai';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #fafafa;
+    background: #D23166;
+    border-radius: 5px;
+    padding: 11px 47px;
+    transition: 500ms;
+    border: 3px solid transparent;
+    transform: translateX(290px);
+}
+
+.product .wrapper2 .left .buy-btn:hover {
+    background-color: transparent;
+    color: #d23166;
+    border: 3px solid #d23166 ;
+}
+
+.product .wrapper2 .right .img {
+    transform: translateX(80px);
+}
+
+/* //////////// */
+
+.product .wrapper3 {
+    display: flex;
+    margin: 130px 0 0 0;
+}
+
+.product .wrapper3 .right .title {   
+    font-family: 'Hind Madurai';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+    padding: 0 0 20px 0;
+}
+
+.product .wrapper3 .right .suptitle {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.product .wrapper3 .right .new {
+    font-family: 'Hind Madurai';
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+    margin: 0 10px 0 0;
+}
+
+.product .wrapper3 .right .old {
+    font-family: 'Hind Madurai';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: #000000;
+    opacity: 0.7;
+    transform: translateY(4.9px);
+}
+
+.product .wrapper3 .right .cost {
+    display: flex;
+    padding: 20px 0;
+}
+
+.product .wrapper3 .right .buy-btn{
+    font-family: 'Hind Madurai';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #fafafa;
+    background: #D23166;
+    border-radius: 5px;
+    padding: 11px 47px;
+    transition: 500ms;
+    border: 3px solid transparent;
+}
+
+.product .wrapper3 .right .buy-btn:hover {
+    background-color: transparent;
+    color: #d23166;
+    border: 3px solid #d23166 ;
+}
+
+.product .wrapper3 .left .img {
+    transform: translateX(-60px);
+}
+
+.product .wrapper3 .right {
+    transform: translateX(20px);
+    width: 42%;
+}
+
+/* ////////////// */
+
+.order {
+    background-color: rgba(242,206,218,0.3);
+    margin: 100px 0 0 0;
+}
+
+.order .wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order .wrapper .right .title {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 44.2px;
+    line-height: 52px;
+    color: #000000;
+    padding: 90px 0 50px 0;
+}
+
+
+.order .wrapper .right .suptitle {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    color: #0f0101;
+    opacity: 0.7;
+    width: 100%;
+}
+
+.order .wrapper .right {
+    width: 62%;
+}
+
+.order .wrapper .right .box .one{
+    display: flex;
+}
+
+.order .wrapper .right .box .two {
+    display: flex;
+    margin: 13px 0;
+}
+
+.order .wrapper .right .box .three {
+    display: flex;
+    transform: translateX(9px);
+}
+
+.order .wrapper .right .box {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  margin: 40px 0;
+}
+
+.order .wrapper .right .box .img {
+    transform: scale(2);
+    margin: 0 20px 0 0;
+}
+
+.order .wrapper .right .download {
+    display: flex;
+    align-items: flex-end;
+}
+
+.order .wrapper .right .download .play {
+    transform: translate(-10px , -20px);
+}
+
+.order .wrapper .right .download .app {
+    transform: translateY(-15.5px);
+}
+
+.order .wrapper .left .img {
+    transform: translateY(50px);
+}
+
+
+.order .wrapper .right .box .one .img {
+    margin: 0 30px 0 0;
+}
+
+.order .wrapper .right .box .two .img {
+    margin: 0 28px 0 0;
+}
+
+.order .wrapper .right .box .three .img {
+    margin: 0 19px 0 0;
+}
+
+/* ////////////////// */
+
+.qs {
+    margin: 150px 0 0 0;
+}
+
+.qs .wrapper {
+    width: 100%;
+}
+
+.qs .wrapper .first .title {
+    font-family: "Roboto";    
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+    width: 45%;
+    margin: 0 auto;
+    padding: 0 0 60px 0;
+}
+
+/* .qs .wrapper .second .question {
+    background: rgba(23, 16, 16, 0.077) ;
+    width: 600px;
+    height: 70px;
+    border: 1px solid transparent;  
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 5px;
+}
+ */
+/* .qs .wrapper .second {
+    display: flex;
+    justify-content: center;
+} */
+
+.qs .wrapper .form {
+    display: flex;
+}
+
+.qs .wrapper .form {
+    margin: 0 auto;
+    width: 60%;
+    border: 2px solid #FAFAFA;; 
+    border-radius: 5px;
+}
+
+.qs .wrapper .form .input {
+    width: 80%;
+    outline: none;
+    border: none;
+    padding: 29px 350px 29px 30px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    opacity: 1;
+}
+
+.qs .wrapper .form .btn{
+    width: 20%;
+    border: 2px solid #d23166;
+    background-color: #D23166;
+    color: #fafafa;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* /////////// */
+
+.footer {
+    background-color: #0A0808;
+    margin: 100px 0 0 0;
+}
+
+.footer .wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .wrapper .follow {
+    width: 21%;
+}
+.footer .wrapper .follow .subtitle {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #ffffff  ;
+    opacity: 0.7;
+}
+
+.footer .wrapper .follow .suptitle {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    padding: 20px 0 10px 0;
+}
+
+.footer .wrapper .follow .img {
+    padding: 70px 0 30px 0;
+}
+
+.footer .wrapper .follow .media {
+    transform: scale(1.25);
+    padding: 0 5px;
+    cursor: pointer;
+
+}
+
+.footer .wrapper .home .menu .list .link {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.footer .wrapper .delivery .menu .list .link {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.footer .wrapper .news .last {
+    padding: 20px 0;
+}
+
+.footer .wrapper .news .suptitle {        
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.footer .wrapper .news .last .subscribe {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #fafafa;
+    background: #D23166;
+    border-radius: 5px;
+    padding: 11px 20px;
+    transition: 500ms;
+    border: 3px solid transparent;
+    transform: translate(-10px);
+    cursor: pointer;
+}
+
+.footer .wrapper .news .last .email {
+    background-color: #000000;
+    border: 2px solid #D64374;
+    opacity: 0.5;
+    border-radius: 5px;
+    width: 300px;
+    height: 52px;
+    transform: translateY(-2.80px);
+}
+
+
+.footer .news .email {
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    
+}
+
+.footer .news .img {
+    cursor: pointer;
+
+}
+
+
+/* //////////////////////////// */
+
+.feedback .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback .wrapper .left .row1 {
+    display: flex;
+}
+
+.feedback .wrapper .left .row1 .text-block .title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding: 5px 0 0 0;
+}
+
+.feedback .wrapper .left .row1 {
+     padding: 60px 0 0 0;
+}
+
+.feedback .wrapper .left .row1 .text-block .text {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    opacity: 0.7;
+    padding: 6px 0 0 0;
+}
+
+.feedback .wrapper .left .row1 .text-block {
+    margin-left: 11px;
+}
+
+.feedback .wrapper .left .row2 .text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+    width: 55%;
+}
+
+.feedback .wrapper .left .row2 .punc2 {
+    transform: translate(268px,-17px);
+}
+
+.feedback .wrapper .left .row2 .punc1 {
+    transform: translate(-20px,18px);
+}
+
+.feedback .wrapper .left .row2 {
+    padding: 50px 0;
+}
+
+.feedback .wrapper .left .row3 {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.feedback {
+    padding: 110px 0 80px 0;
+}
+
+.feedback .wrapper .right .img {
+    transform: translateY(30px);
+}
+
+
+.footer .home .link {
+    margin-bottom: 8px;
+}
+
+.footer .home {
+    transform: translateY(30px);
+}
+
+.footer .delivery .link {
+    margin-bottom: 8px;
+    transform: translateY(30px);
+}
+
+.footer .follow {
+    transform: translateY(-20px);
+}
+
+.footer .news {
+    transform: translateY(20px);
+}
+
+
